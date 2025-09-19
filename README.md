@@ -16,14 +16,20 @@ Cкрипт на Python для транслитерации английског
 *   [`transliterate`](https://github.com/barseghyanartur/transliterate) — для транслитерации текста.
 *   [`num2words`](https://github.com/savoirfairelinux/num2words) — для преобразования чисел в слова.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
-3.  Запустите скрипт:
-    ```bash
-    python main.py
-    ```
+3. Проверьте установку
+```bash
+python --version  # Должна быть версия Python 3.x
+pip list          # Должны отобразиться зависимости из файла requirements.txt
+```
+
+4.  Запустите скрипт:
+```bash
+python main.py
+```
 
 ## Что делает скрипт?
 
